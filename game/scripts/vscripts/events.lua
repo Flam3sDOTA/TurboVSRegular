@@ -23,6 +23,7 @@ function TurboVSRegular:OnGamePreGame()
         GameRules:SetItemStockCount(5, DOTA_TEAM_GOODGUYS, "item_aghanims_shard", -1)
     end)
 
+    if GameRules:IsCheatMode() then
         Timers:CreateTimer(1, function()
             GameRules:SendCustomMessage("#Response_CheatMode", 0, 0)
         end)
