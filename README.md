@@ -2,9 +2,7 @@
 
 <p align="center"><img src="https://i.ibb.co/C50ghPTW/cover2.png" alt="project-image"></p>
 
-<p align="center"><img src="https://img.shields.io/badge/Steam_Workshop-blue?logo=steam&amp;link=https%3A%2F%2Fsteamcommunity.com%2Fsharedfiles%2Ffiledetails%2F%3Fid%3D3721383110" alt="shields"></p>
-
-
+[<img alt="Steam" src="https://img.shields.io/badge/Steam-Workshop-green.svg?logo=steam&logoColor=white">](https://steamcommunity.com/sharedfiles/filedetails/?id=3721383110)
 
 <h2>Team Radiant/Team Turbo</h2>
 
