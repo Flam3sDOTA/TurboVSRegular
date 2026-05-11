@@ -1,8 +1,8 @@
-<h1 align="center" id="title">Turbo vs Regular</h1>
-
-<p align="center"><img src="https://i.ibb.co/C50ghPTW/cover2.png" alt="project-image"></p>
+# Turbo vs Regular
 
 [<img alt="Steam" src="https://img.shields.io/badge/Steam-Workshop-green.svg?logo=steam&logoColor=white">](https://steamcommunity.com/sharedfiles/filedetails/?id=3721383110)
+
+Turbo vs Regular is a Dota 2 custom game mode with asymmetric rulesets where the Radiant uses Turbo rules and the Dire uses standard rules. Both teams play on the same map with the same objectives, but the difference in game rules creates a completely different match experience for each side.
 
 <h2>Team Radiant/Team Turbo</h2>
 
