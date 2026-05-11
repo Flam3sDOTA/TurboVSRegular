@@ -1,0 +1,49 @@
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
+		<include src="file://{resources}/styles/custom_game/MainHud.css" />
+    </styles>
+
+    <scripts>
+        <include src="file://{resources}/scripts/custom_game/MainHud.js" />
+    </scripts>
+
+    <Panel hittest="false" class="Root">
+      <Panel hittest="false" class="TopLeftMenu">
+        <Button id="NewDashboardButton" class="TopLeftMenuButton" onactivate="DOTAHUDShowDashboard();" onmouseover="UIShowTextTooltip(#DOTA_HUD_BackToDashboard)" onmouseout="UIHideTextTooltip()" />
+        <Button id="NewSettingsButton" class="TopLeftMenuButton" onactivate="DOTAShowSettingsRebornPopup();" onmouseover="UIShowTextTooltip(#DOTA_HUD_Settings)" onmouseout="UIHideTextTooltip()" />
+        <Button id="NewScoreboardButton" class="TopLeftMenuButton" onactivate="DOTAHUDToggleScoreboard();" onmouseover="UIShowTextTooltip(#DOTA_HUD_Scoreboard)" onmouseout="UIHideTextTooltip()" />
+        <Button id="CustomButton1" class="TopLeftMenuButton" onactivate="ToggleSlarkCrawl()" onmouseover="UIShowTextTooltip('Tragedy of Darth Slark87 the Fool')" onmouseout="UIHideTextTooltip()" />
+        <Button id="CustomButton2" class="TopLeftMenuButton" onactivate="" onmouseover="UIShowTextTooltip(TI Battlepass 2026 - Soon™)" onmouseout="UIHideTextTooltip()" />
+      </Panel>
+      
+      <Panel id="SellErrorPanel" hittest="false" style="visibility: collapse;">
+        <Label id="SellErrorLabel" text="#dota_hud_error_tutorial_shop_not_in_range" />
+      </Panel>
+
+      <Panel id="AegisCountdownPanel" hittest="false" style="visibility: collapse;">
+        <Label id="AegisCountdownLabel" text="" />
+      </Panel>
+
+      <Panel id="SlarkCrawlPanel" hittest="true" style="visibility: collapse;">
+        <Panel id="SlarkCrawlMask">
+          <Panel id="SlarkCrawlText">
+              <Label id="SlarkCrawlTitle" text="EPISODE 322" />
+              <Label id="SlarkCrawlSubtitle" text="Tragedy of Darth Slark87 the Fool" />
+              <Label class="SlarkCrawlBody" text="A short time ago in a reddit galaxy far, far away..." />
+              <Label class="SlarkCrawlBody" text="The Galactic Subreddit was at peace, watching the eternal struggle between Real Events and Quartero's Curios." />
+              <Label class="SlarkCrawlBody" text="From the outer rim came a lone warrior, known only as u/Slark87, master of 17,000 Slark battles." />
+              <Label class="SlarkCrawlBody" text="He brought tidings of a new path - the Octarine Core and Shadow Blade, weapons of unmatched power." />
+              <Label class="SlarkCrawlBody" text="The Council of Reddit listened with admiration... until Jedi Master u/Whirlm sensed a great disturbance." />
+              <Label class="SlarkCrawlBody" text="The dewarding was too precise. The movements too knowing. A dark side was at work." />
+              <Label class="SlarkCrawlBody" text="The truth was revealed - no Force, no mastery. Only a second datapad, watching his own holocron with a two-minute delay." />
+              <Label class="SlarkCrawlBody" text="Cornered, the impostor turned to the dark side, mocking the very Council that had honored him." />
+              <Label class="SlarkCrawlBody" text="And so the tragedy of Darth Slark87 the Fool became a cautionary tale, whispered across the stars." />
+          </Panel>
+        </Panel>
+        <Button id="SlarkCrawlClose" onactivate="ToggleSlarkCrawl()">
+            <Label text="X" />
+        </Button>
+    </Panel>
+    </Panel>
+</root>

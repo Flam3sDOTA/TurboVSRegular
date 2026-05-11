@@ -1,0 +1,26 @@
+"DOTAUnits"
+{
+    "Version"   "1"
+    
+    "npc_dota_goodguys_fort" 		  					{ "StatusHealthRegen"	"0" }
+	"npc_dota_goodguys_tower1_top"    					{ "StatusHealth" "1800" "ArmorPhysical" "12" }
+	"npc_dota_goodguys_tower1_mid"    					{ "StatusHealth" "1800" "ArmorPhysical" "12" }
+	"npc_dota_goodguys_tower1_bot"    					{ "StatusHealth" "1800" "ArmorPhysical" "12" }
+
+	"npc_dota_goodguys_tower2_top"    					{ "StatusHealth" "2500" "ArmorPhysical" "16" }
+	"npc_dota_goodguys_tower2_mid"    					{ "StatusHealth" "2500" "ArmorPhysical" "16" }
+	"npc_dota_goodguys_tower2_bot"    					{ "StatusHealth" "2500" "ArmorPhysical" "16" }
+
+	"npc_dota_goodguys_tower3_top"    					{ "StatusHealth" "2500" "ArmorPhysical" "16" }
+	"npc_dota_goodguys_tower3_mid"    					{ "StatusHealth" "2500" "ArmorPhysical" "16" }
+	"npc_dota_goodguys_tower3_bot"    					{ "StatusHealth" "2500" "ArmorPhysical" "16" }
+
+	"npc_dota_goodguys_tower4"        					{ "StatusHealth" "2600" "ArmorPhysical" "21" }
+
+	"npc_dota_goodguys_siege_upgraded_mega"         	{ "StatusHealth" "1870" "AttackDamageMin" "102" "AttackDamageMax" "124" }
+	"npc_dota_creep_goodguys_ranged_upgraded_mega"  	{ "StatusHealth" "950"  "AttackDamageMin" "92"  "AttackDamageMax" "102" }
+	"npc_dota_creep_goodguys_melee_upgraded_mega"   	{ "StatusHealth" "1400" "AttackDamageMin" "82"  "AttackDamageMax" "98"  }
+	"npc_dota_creep_goodguys_flagbearer_upgraded_mega" 	{ "StatusHealth" "1400" "AttackDamageMin" "82"  "AttackDamageMax" "98"  }
+	
+	"npc_dota_roshan" 									{ "Model" "models/pets/red_riding_hood/red_riding_hood_granny.vmdl" "ModelScale" "4" }
+}

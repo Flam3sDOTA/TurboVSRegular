@@ -1,0 +1,5 @@
+<root>
+	<Panel>
+		<CustomUIElement type="HudTopBar"			layoutfile="file://{resources}/layout/custom_game/MainUI.xml" />
+	</Panel>
+</root>
