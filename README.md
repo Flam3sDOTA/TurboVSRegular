@@ -22,3 +22,6 @@
 *   Reduced Aegis of the Immortal expire duration to 4 minutes.
 *   Aghanim's Shard is available at 7:30 game-time.
 *   Infused Raindrops is available at 1:30 game-time.
+
+<h2>Team Dire/Team Regular</h2>
+*   Regular Rules.
