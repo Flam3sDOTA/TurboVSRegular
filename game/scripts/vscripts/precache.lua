@@ -51,6 +51,7 @@ g_ParticlePrecache =
 	"particles/base_attacks/ranged_goodguy.vpcf",
 	"particles/base_attacks/ranged_badguy.vpcf",
 	"particles/neutral_fx/miniboss_damage_reflect_explosion.vpcf_c",
+	"particles/econ/events/ti9/shovel_dig.vpcf",
 }
 
 g_UnitPrecache =
@@ -219,6 +220,19 @@ g_UnitPrecache =
 
 g_ParticleFolderPrecache =
 {
+	"particles/units/heroes/hero_techies",
+	"particles/generic_gameplay",
+	"particles/generic_hero_status",
+	"particles/items_fx",
+	"particles/items2_fx",
+	"particles/items3_fx",
+	"particles/items4_fx",
+	"particles/items5_fx",
+	"particles/items6_fx",
+	"particles/items7_fx",
+	"particles/items8_fx",
+	"particles/items8_4fx",
+	"particles/neutral_fx",
 }
 
 g_SoundPrecache =
