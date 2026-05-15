@@ -111,7 +111,16 @@ g_ModelPrecache =
 	"models/props_gameplay/rune_shield01.vmdl",
 	"models/props_gameplay/rune_water.vmdl",
 	"models/props_gameplay/rune_xp.vmdl",
-
+	"models/props_gameplay/gold_bag_2_bag.vmdl",
+	"models/props_gameplay/gold_bag.vmdl",
+	"models/items/wards/chrysalis_ward/chrysalis_ward.vmdl",
+	"models/props_gameplay/roshans_banner.vmdl",
+	"models/props_gameplay/ti9_consumable_banner.vmdl",
+	"models/props_teams/banner_guild_lvl1.vmdl",
+	"models/props_teams/banner_guild_lvl2.vmdl",
+	"models/props_teams/banner_guild_lvl3.vmdl",
+	"models/props_teams/banner_guild_lvl4.vmdl",
+	"models/props_teams/roshans_banner.vmdl",
 }
 
 g_ParticlePrecache =
@@ -125,6 +134,9 @@ g_ParticlePrecache =
 	"particles/items8_fx/foragers_kit_buff_healing.vpcf",
 	"particles/items8_fx/foragers_kit_buff_stats.vpcf",
 	"particles/items8_fx/foragers_kit_tree_aura.vpcf",
+	"particles/econ/items/techies/techies_arcana/techies_taunt.vpcf",
+	"particles/econ/items/techies/techies_arcana/techies_suicide_taunt_firework.vpcf",
+	"particles/units/heroes/hero_techies/techies_taunt_compendium.vpcf",
 }
 
 g_UnitPrecache =

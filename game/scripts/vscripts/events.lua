@@ -41,7 +41,6 @@ function TurboVSRegular:OnGamePreGame()
     end)
 end
 
-
 function TurboVSRegular:OnGameInProgress()
     GameRules:SetTimeOfDay(0.25)
 end
