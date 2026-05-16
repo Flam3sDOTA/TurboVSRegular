@@ -303,23 +303,6 @@ g_UnitPrecache =
 	"npc_dota_courier",
 }
 
-g_ParticleFolderPrecache =
-{
-	"particles/units/heroes/hero_techies",
-	"particles/generic_gameplay",
-	"particles/generic_hero_status",
-	"particles/items_fx",
-	"particles/items2_fx",
-	"particles/items3_fx",
-	"particles/items4_fx",
-	"particles/items5_fx",
-	"particles/items6_fx",
-	"particles/items7_fx",
-	"particles/items8_fx",
-	"particles/items8_4fx",
-	"particles/neutral_fx",
-}
-
 g_SoundPrecache =
 {
 	-- Game Sounds
