@@ -19,10 +19,6 @@ function Precache( context )
 		PrecacheResource( "particle", Particle, context )
 	end
 
-	for _,ParticleFolder in pairs( g_ParticleFolderPrecache ) do
-		PrecacheResource( "particle_folder", Particle, context )
-	end
-
 	for _,Sound in pairs( g_SoundPrecache ) do
 		PrecacheResource( "soundfile", Sound, context )
 	end
